@@ -1,0 +1,6 @@
+@inproceedings{li2025Ohmscanner,
+  title={From signal-based to Impedance-based Sensing: A Paradigm Shift for Plug-and-play, Mobile, and Sensitive Battery-free Sensing},
+  author={Li, Liyao and Yun, Wu and Kim, Minsung and Shang, Bozhao and Xiong, Jie and Xu, Wenyao and Chen, Xiaojiang and Xie, Yaxiong},
+  booktitle={Proceedings of the 31th Annual International Conference on Mobile Computing And Networking},
+  year={2025}
+}

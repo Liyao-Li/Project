@@ -56,7 +56,7 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://liyao-li</span>
+                <a href="https://liyao-li.github.io/" target="_blank">Liyao Li</a>,
                 <span class="author-block">
                   <a href="https://xieyaxiongfly.github.io/" target="_blank">Yaxiong Xie</a>,</span>
                   </span>
@@ -110,15 +110,7 @@
     <h2 class="title is-3">SmartLens: A Passive, Low-cost and Battery-free Eye Movement Sensing System</h2>
 <div class="is-size-5 publication-authors">
   <span class="author-block">
-    <a href="#" target="_blank">Liyao Li</a>,
-    <a href="#" target="_blank">Yaxiong Xie</a>,
-    <a href="#" target="_blank">Jie Xiong</a>,
-    <Ziyu Hou>,
-    <Yingchun Zhang>,
-    <Qing Wei>,
-    <Fuwei Wang>,
-    <Dingyi Fang>,
-    <Xiaojiang Chen>
+    Liyao Li, Yaxiong Xie, Jie Xiong, Ziyu Hou, Yingchun Zhang, Qing Wei, Fuwei Wang, Dingyi Fang, Xiaojiang Chen
   </span>
   <div><a href="#" target="_blank">MobiCom 2022<div>
 </div>
@@ -140,12 +132,25 @@
     <span>BibTeX</span>
   </a>
 </div>
-    <p class="content">
-      SmartLens miniaturizes a backscatter antenna and integrates it into contact lenses, enabling long-range, battery-free wireless communication for eye-related health monitoring.
-    </p>
-    <figure class="image is-4by3">
+    <div class="content has-text-justified mt-4">
+      <h2 class="title is-4">Motivation</h2>
+      <p>
+        Eye movements offer a powerful window into both cognitive function and neurological health. As the human eye accounts for approximately 80% of external information acquisition, its activity has been widely adopted as a biomarker for diagnosing conditions such as ADHD, autism, Parkinson’s disease, Alzheimer’s disease, and depression. In addition, eye motion and blinking are key enablers for hands-free human-computer interaction (HCI), especially for individuals with motor impairments.
+      </p>
+      <p>
+        Despite their promise, existing eye-tracking technologies face critical limitations. Contact-based solutions like electrooculography (EOG) require electrodes to be attached to the skin, which is intrusive and uncomfortable for long-term use. Camera-based systems raise privacy concerns and often suffer from poor robustness under varying lighting conditions. Recent attempts to integrate magnetic or RFID sensing into smart contact lenses have demonstrated limited communication ranges, often restricted to just a few centimeters, which hinders practical deployment in real-world scenarios.
+      </p>
+      <p><strong>
+        SmartLens miniaturizes a backscatter antenna and integrates it into contact lenses, enabling long-range, battery-free wireless communication for eye-related health monitoring.
+      </strong></p>
+      <p>
+        To address these challenges, we propose <strong>SmartLens</strong>—a zero-power, battery-free contact lens system that enables long-range wireless eye activity sensing via UHF RFID backscatter.<strong>SmartLens miniaturizes a backscatter antenna and integrates it into contact lenses, enabling long-range, battery-free wireless communication for eye-related health monitoring.</strong> It operates reliably at distances over 1.5 meters, supports mobility, and introduces a novel reference tag design to mitigate head movement interference, enabling robust and privacy-preserving eye activity monitoring in a compact, wearable form factor.
+      </p>
+    </div>
+</div>
+    <!-- <figure class="image is-4by3">
       <img src="static/images/Smartlens_onefigure_version.jpg" alt="SmartLens diagram" style="width: 60%;">
-    </figure>
+    </figure> -->
     <div class="video-container">
       <iframe width="100%" height="500" src="https://www.youtube.com/embed/eUcwNbV5yrA" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -153,39 +158,91 @@
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">Cyclops: Material-Integrated Sensing Antenna</h2>
-    <div class="columns is-vcentered">
-      <div class="column is-half">
-        <p class="content">
-          Cyclops integrates advanced materials directly into the antenna structure, enabling it to perform sensing functions without compromising communication capabilities.
-        </p>
-        <figure class="image is-4by3">
-          <img src="static/images/cyclops_onefigure_version.jpg" alt="Cyclops diagram">
-        </figure>
-      </div>
-      <div class="column is-half">
+    <div class="container is-max-desktop has-text-centered">
+      <h2 class="title is-3">Cyclops: A Low-cost, Battery-free, and Long-range Eye Pressure Sensing System</h2>
+    <div class="is-size-5 publication-authors">
+    <span class="author-block">
+      Liyao Li , Bozhao Shang, Yun Wu, Jie Xiong, Xiaojiang Chen, Yaxiong Xie
+    </span>
+    <div><a href="#" target="_blank">NSDI 2024<div>
+    </div>
+    <div class="buttons is-centered mt-3">
+      <a class="button is-dark is-rounded" href="https://www.usenix.org/system/files/nsdi24-li-liyao.pdf" target="_blank">
+        <span class="icon"><i class="fas fa-file-pdf"></i></span>
+        <span>Paper</span>
+      </a>
+    <a class="button is-dark is-rounded" href="https://github.com/Nisl-lly/Cyclops" target="_blank">
+      <span class="icon"><i class="fab fa-github"></i></span>
+      <span>Code</span>
+    </a>
+    <a class="button is-dark is-rounded" href="static/pdfs/Cyclops persentation _finalversion.pdf" target="_blank">
+      <span class="icon"><i class="fas fa-chalkboard"></i></span>
+      <span>Slides</span>
+    </a>
+    <a class="button is-dark is-rounded" href="static/pdfs/Cyclops_bibtex.txt" download>
+      <span class="icon"><i class="fas fa-quote-right"></i></span>
+      <span>BibTeX</span>
+    </a>
+    </div>
+        <div class="content has-text-justified mt-4">
+          <h2 class="title is-4">Motivation</h2>
+          <p>
+            Intraocular pressure (IOP) is a vital biomarker for eye health, especially for diagnosing and managing glaucoma, the second leading cause of irreversible blindness worldwide. Early detection of elevated IOP is critical for preventing optic nerve damage and vision loss. Continuous, long-range IOP monitoring is essential because IOP naturally fluctuates due to physiological and emotional factors. While contact lens–based sensors are promising due to their comfort and accuracy, existing solutions rely on bulky, short-range readers or batteries, severely limiting practicality.
+          </p>
+          <p>
+            Cyclops addresses these challenges by enabling continuous, battery-free IOP monitoring within a standard contact lens form factor. It achieves meter-level wireless communication via backscatter and features a novel dual-purpose antenna that simultaneously enables sensing and communication. <strong>We functionalize the miniaturized antenna by incorporating sensing capabilities directly into its structure using advanced materials, while preserving communication functionality.</strong> This design allows Cyclops to overcome prior range limitations while maintaining high pressure sensitivity, transparency, and biocompatibility—making it a robust platform for real-world deployment.
+          </p>
+        </div>
+    </div>
+      <div class="video-container">
         <iframe width="100%" height="500" src="https://www.youtube.com/embed/ZOHj9Pn0QDI" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3">OhmScanner: Multi-modal Battery-free Wearable Platform</h2>
-    <div class="columns is-vcentered">
-      <div class="column is-half">
-        <p class="content">
-          OhmScanner generalizes the design into a plug-and-play platform that supports multiple sensing modalities in a battery-free, wireless, and wearable form factor.
-        </p>
-        <figure class="image is-4by3">
-          <img src="static/images/OhmScanner.jpg" alt="OhmScanner diagram">
-        </figure>
-      </div>
-      <div class="column is-half">
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/4XWiHM4ST8A" frameborder="0" allowfullscreen></iframe>
-      </div>
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">OhmScanner: A Paradigm shift from signal-based sensing to impedance-based sensing
+    </h2>
+  <div class="is-size-5 publication-authors">
+    <span class="author-block">
+      Liyao Li, Yun Wu, Minsung Kim, Bozhao Shang, Jie Xiong, Wenyao Xu, Xiaojiang Chen, Yaxiong Xie
+    </span>
+  <div><a href="#" target="_blank">MobiCom 2025<div>
+  </div>
+  <div class="buttons is-centered mt-3">
+      <a class="button is-dark is-rounded" href="https://dl.acm.org/doi/pdf/10.1145/3544548.3581014" target="_blank">
+      <span class="icon"><i class="fas fa-file-pdf"></i></span>
+      <span>Paper</span>
+      </a>
+      <a class="button is-dark is-rounded" href="https://github.com/Nisl-lly/OhmScanner" target="_blank">
+      <span class="icon"><i class="fab fa-github"></i></span>
+      <span>Code</span>
+      </a>
+      <a class="button is-dark is-rounded" href="static/pdfs/OhmScanner_presentation.pdf" target="_blank">
+        <span class="icon"><i class="fas fa-chalkboard"></i></span>
+        <span>Slides</span>
+      </a>
+      <a class="button is-dark is-rounded" href="static/pdfs/OhmScanner_bibtex.txt" download>
+        <span class="icon"><i class="fas fa-quote-right"></i></span>
+        <span>BibTeX</span>
+      </a>
+  </div>
+    <div class="content has-text-justified mt-4">
+      <h2 class="title is-4">Motivation</h2>
+      <p>
+        Battery-free sensing has emerged as a transformative paradigm for Internet of Things (IoT) applications, enabling sustainable, low-cost, and continuous monitoring across domains such as human-object interaction, environmental sensing, and food safety. However, existing solutions rely heavily on signal variations in the wireless communication channel, making them highly susceptible to environmental dynamics and deployment variations. These vulnerabilities prevent robust, plug-and-play sensing in practical scenarios and limit the scalability of current approaches.
+      </p>
+      <p>
+        To overcome these challenges, OhmScanner introduces a fundamental shift from signal-based to impedance-based sensing. By directly measuring variations in antenna impedance—rather than relying on unstable backscatter signals—OhmScanner decouples the sensing process from the wireless channel. This enables reliable, deployment-independent sensing, even in highly dynamic and mobile environments.
+      </p>
+      <p>
+	      Furthermore, <strong>we generalize these innovations into a versatile platform that supports multi-modal, plug-and-play wireless battery-free wearable sensing</strong>, demonstrating its robustness across diverse applications including finger tracking, button interfaces, and liquid identification. Through advanced antenna design and material integration, OhmScanner significantly expands the frontier of what battery-free sensing can achieve.
+	    </p>
+    </div>
+  </div>
+    <div class="video-container">
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/4XWiHM4ST8A" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </section>
